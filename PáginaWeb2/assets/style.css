@@ -1,0 +1,56 @@
+@font-face{font-family:futura-normal;
+    font-style:normal;
+    font-weight:400;
+    src:local('Futura-Normal'),local('Futura-Normal-Regular'),url(Futura\ Bold\ Italic\ font.ttf) 
+    format('woff'),url(Futura\ Bold\ Italic\ font.ttf) format('truetype')
+}
+div:first-child > p:first-child{
+    font-size: 50px;
+    font-family: 'Futura-Normal', arial;
+    text-align: center;
+    font-style: normal;
+}
+div:first-child{
+text-align: center;
+}
+div:first-child > img{
+    height: 100px;
+    border-radius: 50%;
+}
+div:nth-last-of-type(2) > p{
+    font-size: 15px;
+    font-family: 'Futura-Normal';
+    margin-right: 200px;
+    margin-left: 200px;
+}
+div:nth-last-of-type(3) > img{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+div:nth-last-of-type(3) > p{
+    font-size: 15px;
+    font-family: 'Futura-Normal';
+    margin-right: 200px;
+    margin-left: 200px;
+}
+div:nth-last-of-type(2) > img{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+div:nth-last-of-type(1) {
+text-align: center;
+    font-family: 'Futura-Normal';
+}
+div:nth-last-of-type(1) > img{
+border-radius: 25%;
+}
+footer {
+    position: static;
+    font-size: 10px;
+    bottom: 0;
+    width: 99%;
+    height: 0%;
+    color: black;
+    text-align: center;
+    font-family: 'Futura-Normal';
+}
